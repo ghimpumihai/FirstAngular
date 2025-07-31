@@ -6,7 +6,7 @@ import { Component, signal } from '@angular/core';
   templateUrl: './counter.html',
   styleUrl: './counter.scss'
 })
-export class Counter {
+export class CounterComponent {
   counterValue=signal(0);
   Increment() {
     console.log('Increment button clicked');

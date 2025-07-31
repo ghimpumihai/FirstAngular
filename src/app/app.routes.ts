@@ -10,7 +10,7 @@ export const routes: Routes = [{
 {
     path:'todos',
     loadComponent: () => {
-        return import('./todos/todos').then((m) => m.Todos);
+        return import('./todos-component/todos-component').then((m) => m.TodosComponent);
     }
 }
 ];
